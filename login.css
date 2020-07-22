@@ -1,0 +1,12 @@
+li{
+	color: green;
+}
+
+ul{
+	list-style-type: square;
+}
+
+li:hover{
+	font-weight: bold;
+	cursor: pointer;
+}
