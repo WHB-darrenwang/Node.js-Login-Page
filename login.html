@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Letters </title>
+		<link rel="stylesheet" type="text/css" href="login.css">
+	</head>
+	<body>
+		<h1 align="middle"> Letters </h1> 
+		<br><br>
+		<form align="middle" method="post" action="/login_form">
+			<label> Username: </label>
+			<input name="log_user" type="text" placeholder="LostRaven1588">
+			<br><br>
+			<label> Password: </label>
+			<input name="log_pwd" type="password">
+			<br><br>
+			<input type="submit" value="Enter">
+		</form> 
+		<br>
+		<div align="middle">
+			<input onclick="location.href = '/register';" type="submit" value="Register">
+		</div>
+		<br>	
+		<form align="middle" method="post" action="/forgot_button_form">
+			<input type="submit" value="Forgot">
+		</form>	
+		<script src="login.js"></script>
+	</body>
+</html>
